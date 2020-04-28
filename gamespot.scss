@@ -1,0 +1,432 @@
+html {
+  scroll-behavior: smooth;
+  font-size:100%;
+}
+
+body {
+  letter-spacing: 1px;
+  height: 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: black;
+  box-sizing: border-box;
+}
+
+.farapad {
+  padding-left: 8px;
+}
+
+header {
+  img {
+    height: 90px;
+    width: 90px;
+  }
+
+  .logo {
+    a {
+      &:hover {
+        text-decoration: none;
+        color: red;
+        text-shadow: 0 0 5px red;
+        transition: 1.5s ease;
+      }
+
+      font-size: 22px;
+      text-decoration: none;
+      color: white;
+    }
+  }
+
+  nav {
+    a {
+      &:hover {
+        text-decoration: none;
+        color: red;
+        text-shadow: 0 0 5px red;
+        transition: 1s ease;
+      }
+      text-decoration: none;
+      color: white;
+      font-size: 17px;
+    }
+    display: flex;
+    align-items: flex-start;
+  }
+  z-index: 999999;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0,0,0,0.9);
+  width: 100%;
+  height: 100px;
+  padding: 0;
+}
+
+.cont2 {background-image: url("ps3.png");
+  background-position: center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+  padding: 0;
+  width: 100%;
+  height: 40vw;
+
+  img {
+    width: 100%;
+    height: 40vw;
+  }
+}
+
+
+
+.cont3 {
+  .box {
+      flex: 30%;
+      .img{
+        margin-bottom: 10px;
+      }
+    .img1 {
+      width: auto;
+      height: 26vw;
+    }
+    .img2 {
+      width:auto;
+      height: 26vw;
+      padding-top: 2vw;
+    }
+    .img3 {
+      width: auto;
+      height: 26vw;
+      padding-top: 2vw;
+    }
+    h2 {
+      &:hover {
+        text-decoration: none;
+        color: blue;
+        text-shadow: 0 0 5px blue;
+        transition: 1s ease;
+      }
+      cursor: default;
+      color: white;
+    }
+    a {
+      &:hover {
+        text-decoration: none;
+        color: red;
+        text-shadow: 0 0 5px red;
+        transition: 1s ease;
+      }
+      overflow:hidden;
+      color: white;
+      text-decoration: none;
+    }
+    text-align: center;
+    margin-top: 2vw;
+    width: 100%;
+  }
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 45vw;
+}
+
+#player3 {
+  &:hover {
+    text-decoration: none;
+    color: red;
+    text-shadow: 0 0 5px red;
+    transition: 1s ease;
+  }
+}
+
+#player2 {
+  &:hover {
+    text-decoration: none;
+    color: green;
+    text-shadow: 0 0 5px green;
+    transition: 1s ease;
+  }
+}
+
+
+
+.cont4 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-bottom: 5vw;
+}
+
+.columnmain {
+  .monkey {
+    flex: 75%;
+  }
+  .resize {
+    img {
+      padding-left: 40px;
+      height: 38vw;;
+    }
+    flex: 25%;
+  }
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+.jocuri {
+  color: white;
+  margin-bottom: 5vw;
+  margin: 0;
+}
+
+
+.linie {
+  width: 15%;
+  border: 2px solid #1d1d1d;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+
+.servicii {
+  color: white;
+  margin: 0;
+  margin-bottom: -40px;
+  margin-top: 20px;
+}
+
+.linie2 {
+  width: 15%;
+  border: 2px solid #1d1d1d;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+
+.linie3 {
+  width: 18%;
+  border: 2px solid #1d1d1d;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.cont5 {
+  width: 100%;
+  height: 100%;
+}
+
+.pret{
+  img{
+flex: 40%;
+padding: 10px;
+  }
+  overflow: hidden;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.oferta {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding-bottom: 60px;
+  border-bottom: solid 1.5px ;
+}
+
+
+
+.cont6 {
+    width: 100%;
+    height: 540px;
+    background-image: url("unnamed2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#contact {
+height: 520px;
+
+}
+
+.footer {
+  color: white;
+}
+
+.footerhead {
+  p {
+    text-shadow: 1px 1px 0 #000;
+  }
+  text-align: center;
+  padding: 30px;
+  letter-spacing: 3px;
+}
+
+.footerhead h1 {
+  color: red;
+  text-shadow: 0 0 5px red;
+  padding-bottom: 40px;
+}
+
+.linkuri {
+  text-align: center;
+  font-size: 24px;
+  padding-bottom: 50px;
+}
+
+.linkuri a {
+  text-shadow: 1px 1px 0 #000;
+  text-decoration: none;
+  color: inherit;
+}
+
+.linkuri a:hover {
+  font-size: 24px;
+  color: red;
+  text-shadow: 0 0 5px red;
+  transition: 0.5s linear;
+}
+
+.row3 {
+  display: flex;
+  height: 100px;
+  width: 100%;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.column3 {
+  p{
+      text-shadow: 1px 1px 0 #000;
+  }
+  flex: 30%;
+  text-align: center;
+
+}
+
+.upper {
+  font-size: 25px;
+  color: red;
+  text-shadow: 0 0 5px red;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.map iframe {
+  width: 100%;
+}
+
+.map {
+  border-top: solid 1.5px red;
+}
+
+
+@media (max-width: 320px) { body {font-size:0.7rem;}
+.cont3 {
+  height: 400vw;
+}
+}
+
+
+@media (max-width: 640px) { body {font-size:0.7rem;}
+.cont3 {
+  height: 300vw;
+}
+}
+@media (min-width: 640px) { body {font-size:0.7rem;}
+
+ }
+@media (min-width:960px) { body {font-size:0.9rem;} }
+@media (min-width:1100px) { body {font-size:1rem;} }
+
+@media (max-width: 800px) {
+.box .img {
+  width: auto;
+  height: auto;
+}
+
+.column3 {
+font-size: 2vw;
+align-items: center;
+padding-right: 0;
+}
+
+#nav-bar a{
+  color: blue;
+  display: none;
+}
+
+header {
+  height: 13%;
+}
+
+.logo {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.logo a img {
+  height: 50px;
+  width: 50px;
+}
+
+
+.cont2{
+  height:400px;
+ img  {
+  width: 100%;
+  height:400px;
+}
+}
+
+.midt {
+  font-size: 4vw;
+}
+
+.cont3 {
+  height: 200vw;
+  flex-direction: column;
+}
+
+.jocuri {
+  padding: 0;
+  margin: 0;
+}
+
+.pret img {
+  width: 50%;
+}
+
+.oferta img {
+  width: 60%;
+}
+
+}
+
+
+.spin {
+  &:hover {
+    animation: mySpinner 2s ease-in;
+  }
+
+}
+
+
+@keyframes mySpinner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
