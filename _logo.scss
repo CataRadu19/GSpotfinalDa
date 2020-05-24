@@ -1,0 +1,33 @@
+.logocataok {
+  width: 100%;
+
+
+  .row4 {
+    display: flex;
+    justify-content: center;
+
+  }
+  img {
+    margin: 0 auto;
+height: 3.5vw;
+  }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .logocataok {
+    img {
+  height: 5.5vw;
+    }
+  }
+
+}
+@media only screen and (max-width: 500px) {
+  .logocataok {
+    img {
+  height: 6.5vw;
+    }
+  }
+
+}
